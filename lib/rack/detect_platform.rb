@@ -7,7 +7,7 @@ module Rack
     end
 
     def call(env)
-      user_agent = env.fetch('HTTP_USER_AGENT', '')
+      user_agent = env['HTTP_USER_AGENT'].to_s
 
       platforms.each do |re, platform|
         if user_agent =~ re
