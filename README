@@ -1,0 +1,3 @@
+Rack::DetectPlatform is a middleware to set the X_PLATFORM env variable based on user agent.
+
+It is entirely based on the significantly more robust Rack::MobileDetect (http://github.com/talison/rack-mobile-detect).
