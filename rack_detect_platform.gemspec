@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rack_detect_platform}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Rose"]
@@ -19,8 +19,10 @@ Gem::Specification.new do |s|
     "Gemfile",
      "Gemfile.lock",
      "README",
+     "Rakefile",
      "VERSION",
      "lib/rack/detect_platform.rb",
+     "rack_detect_platform.gemspec",
      "spec/detect_platform_spec.rb",
      "spec/spec_helper.rb"
   ]
